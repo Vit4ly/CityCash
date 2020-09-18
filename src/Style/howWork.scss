@@ -1,0 +1,117 @@
+$ffNunito: 'Nunito', sans-serif;
+$ffRoboto: 'Roboto', sans-serif;
+$FFGilroy: 'y';
+
+
+.howWork {
+  margin: 8vw 0 0 0;
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 6.9vw 0;
+
+    p {
+      width: 20vw;
+      font-family: $ffNunito;
+      font-size: 3.5vw;
+      font-weight: 700;
+      color: #232336;
+
+    }
+  }
+
+  &__img {
+    width: 25%;
+    height: auto;
+
+  }
+
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2vw;
+    align-items: center;
+  }
+
+  &__col {
+    height: auto;
+
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    height: 27vw;
+
+  }
+
+  &__img1 {
+    width: 85%;
+    height: auto;
+    padding-bottom: 4vw;
+
+  }
+
+  &__img2 {
+    width: 110%;
+    height: auto;
+
+  }
+
+  &__img3 {
+    width: 75%;
+    height: auto;
+
+  }
+
+  &__backg {
+    position: absolute;
+    z-index: -1;
+    margin-top: 13vw;
+    margin-bottom: 10vw;
+
+    width: 26vw;
+    height: 25vw;
+    border-radius: 2vw 2vw 2vw 0;
+    background-color: rgba(235, 238, 252, 0.3);
+
+  }
+
+  &__info {
+    width: 22vw;
+    padding: 1vw 0 0 0;
+
+  }
+
+  &__num {
+    color: #0083ff;
+    font-family: $ffNunito;
+    font-size: 1vw;
+    font-weight: 700;
+    line-height: 3.4vw;
+
+  }
+
+  &__h {
+    padding-bottom: 1.6vw;
+    color: #232336;
+    font-family: $ffNunito;
+    font-size: 1.5vw;
+    font-weight: 700;
+
+  }
+
+  &__text {
+    color: #bcbfd7;
+    font-family: $ffNunito;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: 1.8vw;
+
+  }
+
+}

@@ -1,0 +1,88 @@
+
+.getMoney {
+  height: 500px;
+  position: relative;
+  margin: 10vw 0 15vw 0;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  &__game {
+
+  }
+
+  &__game__title {
+    width: 30vw;
+    padding: 1vw 0 4.2vw 0;
+    color: #232336;
+    font-family: sans-serif;
+    font-size: 3.3vw;
+    font-weight: 700;
+
+  }
+
+
+  &__game__text {
+    width: 38vw;
+    color: #5a5a89;
+    font-family: sans-serif;
+    font-size: 1.1vw;
+    font-weight: 500;
+    line-height: 2.2vw;
+  }
+
+  .first__text {
+    width: 45vw;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    font-weight: 700;
+
+    padding: 0 1.5vw 2.5vw 0;
+  }
+
+  &__video {
+    position: absolute;
+    width: 40vw;
+    top: 0;
+    left: 64.2vw;
+    height: 33.2vw;
+    background-color: #0083ff;
+    z-index: -5;
+  }
+
+  &__video__inner {
+    width: 100%;
+    height: auto;
+  }
+
+  &__video__bottom {
+    position: absolute;
+    left: -3vw;
+    top: 10.8vw;
+    width: 90%;
+    height: auto;
+    z-index: 100;
+  }
+
+  &__video__cloud {
+
+    position: absolute;
+    top: 5.5vw;
+    left: 24vw;
+    width: 10%;
+    height: auto;
+  }
+
+  &__video__btn {
+    position: absolute;
+    top: 3vw;
+    left: 4vw;
+    width: 13%;
+    height: auto;
+  }
+
+
+}

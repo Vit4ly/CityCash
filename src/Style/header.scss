@@ -1,0 +1,85 @@
+$ffNunito: 'Nunito', sans-serif;
+$ffRoboto: 'Roboto', sans-serif;
+$FFGilroy: 'y';
+
+.logo {
+  margin: 0 5vw 0 0;
+
+  &__img {
+    width: 18.3vw;
+    max-width: 199px;
+
+  }
+
+}
+
+//============Btn Header==================
+.btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 0.9vw;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 0 6.7vw;
+
+  &__entry {
+
+  }
+
+}
+.entry__style {
+  font-family: $ffNunito;
+
+  font-size: 0.9vw;
+  font-weight: 700;
+  color: #fff;
+
+
+  text-align: center;
+  align-items: center;
+  padding: 0.9vw 1.4vw;
+  border-radius: 0.7vw;
+  background-color: #0083ff;
+
+  &:hover {
+    color: #0083ff;
+    background-color: rgba(0, 131, 255, 0.1);
+    transition: 300ms;
+
+  }
+}
+
+//================ Header ==================
+.header {
+  margin: 1.2vw 0 0 0;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 1.11fr 2fr 0.2fr;
+
+
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+  }
+
+  &__link {
+    font-family: $ffNunito;
+    font-weight: 700;
+    font-size: 1vw;
+    color: #5a5a89;
+
+    &:hover {
+      color: #0083ff;
+      transition: 300ms;
+
+    }
+  }
+
+}
+
