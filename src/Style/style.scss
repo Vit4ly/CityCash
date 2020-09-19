@@ -2,15 +2,21 @@
 @import url("../../fonts/font.scss");
 //Temp FF=============
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&family=Roboto:wght@500;700&display=swap');
-//===============
-@import "./header";
-@import "./start";
-@import "./statistics";
-@import "./howWork";
-@import "./getMoney";
-@import "./property";
-@import "./footer";
-
+//=======Head Page========
+@import "./headPage/header";
+@import "./headPage/start";
+@import "./headPage/statistics";
+@import "./headPage/howWork";
+@import "./headPage/getMoney";
+@import "./headPage/property";
+@import "./headPage/footer";
+//============Rule of the game=====
+@import "./rulePage/ruleGame";
+@import "./rulePage/type";
+@import "./rulePage/build";
+@import "./rulePage/bank";
+@import "./rulePage/referral";
+@import "./rulePage/startRule";
 
 
 
@@ -18,12 +24,9 @@ body, html {
   height: 100%;
 }
 
-
 .container {
   width: 83.30%;
-
   margin: 0 auto;
-
 }
 
 .wrapper {
@@ -32,4 +35,5 @@ body, html {
 
 .main {
   overflow: hidden;
+
 }

@@ -1,0 +1,58 @@
+
+.startRule {
+  margin: 0 0 5vw 0;
+  /* Style for "Прямоуголь" */
+
+  &__inner {
+    //width: 1599px;
+    height: 15vw;
+    border-radius: 2vw;
+    background-color: rgba(235, 238, 252, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &__col {
+
+  }
+
+  &__imgLeft {
+    position: relative;
+    top: -2.5vw;
+    left: -1.5vw;
+    width: 22.1vw;
+    height: auto;
+  }
+
+  &__btn {
+    font-size: 1.2vw;
+padding: 1.7vw 3.3vw ;
+    border-radius: 1vw;
+
+
+    position: relative;
+    top: 6.7vw;
+    left: 6vw;
+    background-color: white;
+    color: #0083ff;
+    transition: 300ms;
+    //padding: ;
+
+
+    &:hover {
+      background-color: #0083ff;
+      color: #ffff;
+      transition: 300ms;
+    }
+  }
+
+  &__imgRight {
+    position: relative;
+    top: 3vw;
+    left: 13.5vw;
+    width: 15vw;
+    height: auto;
+
+  }
+
+}
