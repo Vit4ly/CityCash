@@ -3,7 +3,7 @@ $ffRoboto: 'Roboto', sans-serif;
 $FFGilroy: 'y';
 
 
-.howWork {
+.how-work {
   margin: 8vw 0 0 0;
 
   &__title {
@@ -49,26 +49,26 @@ $FFGilroy: 'y';
 
   }
 
-  &__img1 {
+  &__img_img1 {
     width: 85%;
     height: auto;
     padding-bottom: 4vw;
 
   }
 
-  &__img2 {
+  &__img_img2 {
     width: 110%;
     height: auto;
 
   }
 
-  &__img3 {
+  &__img_img3 {
     width: 75%;
     height: auto;
 
   }
 
-  &__backg {
+  &__background {
     position: absolute;
     z-index: -1;
     margin-top: 13vw;
@@ -96,7 +96,7 @@ $FFGilroy: 'y';
 
   }
 
-  &__h {
+  &__heading {
     padding-bottom: 1.6vw;
     color: #232336;
     font-family: $ffNunito;

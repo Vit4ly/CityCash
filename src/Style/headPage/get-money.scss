@@ -1,5 +1,5 @@
 
-.getMoney {
+.get-money {
   position: relative;
   margin: 10vw 0 15vw 0;
 
@@ -57,7 +57,7 @@
     height: auto;
   }
 
-  &__video__bottom {
+  &__video_bottom {
     position: absolute;
     left: -3vw;
     top: 10.8vw;
@@ -66,7 +66,7 @@
     z-index: 100;
   }
 
-  &__video__cloud {
+  &__video_cloud {
 
     position: absolute;
     top: 5.5vw;
@@ -75,7 +75,7 @@
     height: auto;
   }
 
-  &__video__btn {
+  &__video_btn {
     position: absolute;
     top: 3vw;
     left: 4vw;

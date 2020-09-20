@@ -268,56 +268,56 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.howWork {
+.how-work {
   margin: 8vw 0 0 0;
 }
-.howWork__title {
+.how-work__title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 0 6.9vw 0;
 }
-.howWork__title p {
+.how-work__title p {
   width: 20vw;
   font-family: "Nunito", sans-serif;
   font-size: 3.5vw;
   font-weight: 700;
   color: #232336;
 }
-.howWork__img {
+.how-work__img {
   width: 25%;
   height: auto;
 }
-.howWork__inner {
+.how-work__inner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 2vw;
   align-items: center;
 }
-.howWork__col {
+.how-work__col {
   height: auto;
 }
-.howWork__item {
+.how-work__item {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1 1 auto;
   height: 27vw;
 }
-.howWork__img1 {
+.how-work__img_img1 {
   width: 85%;
   height: auto;
   padding-bottom: 4vw;
 }
-.howWork__img2 {
+.how-work__img_img2 {
   width: 110%;
   height: auto;
 }
-.howWork__img3 {
+.how-work__img_img3 {
   width: 75%;
   height: auto;
 }
-.howWork__backg {
+.how-work__background {
   position: absolute;
   z-index: -1;
   margin-top: 13vw;
@@ -327,25 +327,25 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 2vw 2vw 2vw 0;
   background-color: rgba(235, 238, 252, 0.3);
 }
-.howWork__info {
+.how-work__info {
   width: 22vw;
   padding: 1vw 0 0 0;
 }
-.howWork__num {
+.how-work__num {
   color: #0083ff;
   font-family: "Nunito", sans-serif;
   font-size: 1vw;
   font-weight: 700;
   line-height: 3.4vw;
 }
-.howWork__h {
+.how-work__heading {
   padding-bottom: 1.6vw;
   color: #232336;
   font-family: "Nunito", sans-serif;
   font-size: 1.5vw;
   font-weight: 700;
 }
-.howWork__text {
+.how-work__text {
   color: #bcbfd7;
   font-family: "Nunito", sans-serif;
   font-size: 1.2vw;
@@ -353,15 +353,15 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.8vw;
 }
 
-.getMoney {
+.get-money {
   position: relative;
   margin: 10vw 0 15vw 0;
 }
-.getMoney__inner {
+.get-money__inner {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.getMoney__game__title {
+.get-money__game__title {
   width: 30vw;
   padding: 1vw 0 4.2vw 0;
   color: #232336;
@@ -369,7 +369,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3.3vw;
   font-weight: 700;
 }
-.getMoney__game__text {
+.get-money__game__text {
   width: 38vw;
   color: #5a5a89;
   font-family: sans-serif;
@@ -377,14 +377,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   line-height: 2.2vw;
 }
-.getMoney .first__text {
+.get-money .first__text {
   width: 45vw;
   font-family: sans-serif;
   font-size: 1.5vw;
   font-weight: 700;
   padding: 0 1.5vw 2.5vw 0;
 }
-.getMoney__video {
+.get-money__video {
   position: absolute;
   width: 40vw;
   top: 0;
@@ -393,11 +393,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #0083ff;
   z-index: -5;
 }
-.getMoney__video__inner {
+.get-money__video__inner {
   width: 100%;
   height: auto;
 }
-.getMoney__video__bottom {
+.get-money__video_bottom {
   position: absolute;
   left: -3vw;
   top: 10.8vw;
@@ -405,14 +405,14 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
   z-index: 100;
 }
-.getMoney__video__cloud {
+.get-money__video_cloud {
   position: absolute;
   top: 5.5vw;
   left: 24vw;
   width: 10%;
   height: auto;
 }
-.getMoney__video__btn {
+.get-money__video_btn {
   position: absolute;
   top: 3vw;
   left: 4vw;
@@ -437,7 +437,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
 }
-.property__bg {
+.property__background {
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
@@ -445,29 +445,29 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   align-content: center;
 }
-.property__bg__img1 {
+.property__background_img1 {
   width: 10vw;
   height: auto;
   padding: 0 0 3vw 0;
 }
-.property__bg__img2 {
+.property__background_img2 {
   width: 12vw;
   height: auto;
   padding: 0 0 2.8vw 0;
 }
-.property__bg__img3 {
+.property__background_img3 {
   width: 11vw;
   height: auto;
   padding: 0 0 3vw 0;
   margin: -5.5vw 0 0 0;
 }
-.property__bg__img4 {
+.property__background_img4 {
   width: 40%;
   height: auto;
   padding: 0 0 3vw 0;
   margin: -11vw 0 0 0;
 }
-.property__bg__title {
+.property__item_title {
   margin: 0 0 0 -2vw;
   padding: 2.2vw 0 0 0;
   color: #5a5a89;
@@ -475,7 +475,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.728vw;
   font-weight: 700;
 }
-.property__bg__text {
+.property__item_text {
   margin: 0 0 0 -2vw;
   color: #c3c7e6;
   font-family: sans-serif;
@@ -483,7 +483,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 5vw;
 }
-.property__bg__text span {
+.property__item_text span {
   padding: 0 0 0 3.5vw;
   width: 38px;
   height: 24px;
@@ -493,7 +493,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 2vw;
 }
-.property__bg-col {
+.property__background_col {
   position: absolute;
   width: 17.5vw;
   height: 21.5vw;
