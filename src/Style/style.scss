@@ -17,7 +17,8 @@
 @import "./rulePage/bank";
 @import "./rulePage/referral";
 @import "./rulePage/startRule";
-
+//=============== web44 ================
+@import "./web44/web44";
 
 
 body, html {
@@ -30,6 +31,7 @@ body, html {
 }
 
 .wrapper {
+  min-height: 100vh;
   overflow: hidden;
 }
 
