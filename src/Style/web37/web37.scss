@@ -3,15 +3,14 @@
 
   margin: 91px 0 290px 0;
   position: relative;
+  &__inner {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
 
   &__form {
-
-    &__inner {
-
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-
-    }
 
     &_title {
 
