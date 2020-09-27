@@ -1026,7 +1026,7 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   background-color: #eef1fe;
 }
-.successful-reg__form_label {
+.successful-reg__form_labels {
   height: 19px;
   font-size: 1.143em;
   color: #bcbfd7;
@@ -1487,6 +1487,263 @@ h1, h2, h3, h4, h5, h6 {
   }
   .check-mail__btn_head {
     display: block;
+  }
+}
+
+.restore {
+  margin: 91px 0 290px 0;
+  position: relative;
+}
+.restore__form__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.restore__form_title {
+  padding: 80px 0 160px 0;
+  width: 700px;
+  height: 76px;
+  color: #232336;
+  font-family: sans-serif;
+  font-size: 3.3333333333vw;
+  font-weight: 700;
+  line-height: 5.3645833333vw;
+}
+.restore__form_col {
+  position: relative;
+}
+.restore__form_item {
+  vertical-align: top;
+  position: relative;
+}
+.restore__form_item_pass {
+  display: grid;
+  grid-template-columns: 0.1fr 0.2fr;
+  grid-column-gap: 32px;
+}
+.restore__form_input {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1.429em;
+  margin: 0 0 32px 0;
+  padding: 22px 0 0 34px;
+  width: 695px;
+  height: 89px;
+  color: #5a5a89;
+  border-radius: 24px;
+  border: 1px solid #dedee7;
+  transition: 300ms;
+}
+.restore__form_input:focus + label, .restore__form_input:not(:placeholder-shown) + label {
+  top: 19px;
+}
+.restore__form_input:focus {
+  border: none;
+  background-color: #eef1fe;
+}
+.restore__form_input_captcha {
+  padding: 0 0 0 34px;
+  width: 267px;
+  height: 89px;
+  background-color: #bcbfd7;
+}
+.restore__form_input_pass {
+  padding: 0 0 0 34px;
+  width: 396px;
+  height: 89px;
+}
+.restore__form_input_pass:focus {
+  border: none;
+  background-color: #eef1fe;
+}
+.restore__form_input_pass::placeholder {
+  color: #bcbfd7;
+}
+.restore__form_label {
+  height: 19px;
+  font-size: 16px;
+  color: #bcbfd7;
+  font-family: sans-serif;
+  font-weight: 700;
+  position: absolute;
+  pointer-events: none;
+  left: 35px;
+  transition: 0.3s;
+}
+.restore__btn_start {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 32px 61px;
+  border-radius: 20px;
+  color: #ffffff;
+}
+.restore__img-background {
+  padding: 0 0 0 10vw;
+  max-width: 55vw;
+  height: auto;
+  position: absolute;
+  top: -10px;
+  right: -90px;
+}
+@media (min-width: 2560px) {
+  .restore {
+    margin: 91px 0 290px 0;
+    position: relative;
+  }
+  .restore__form_title {
+    width: 100vw;
+    height: 7.0048309179vw;
+  }
+  .restore__form_title {
+    font-size: 64px;
+    line-height: 103px;
+  }
+  .restore__img-background {
+    padding: 0 0 0 10vw;
+    max-width: 55vw;
+    height: auto;
+    position: absolute;
+    top: 280px;
+    right: -90px;
+  }
+}
+@media (max-width: 1440px) {
+  .restore {
+    margin: 5vw 0 10vw 0;
+  }
+  .restore__form_title {
+    padding: 5.5555555556vw 0 11.1111111111vw 0;
+    width: 36.4583333333vw;
+    height: 7.037037037vh;
+    font-size: 3.3333333333vw;
+    line-height: 5.3645833333vw;
+  }
+  .restore__form_input {
+    font-size: 1.3888888889vw;
+    margin: 0 0 2.2222222222vw 0;
+    padding: 1.5277777778vw 0 0 2.3611111111vw;
+    width: 48.2638888889vw;
+    height: 6.1805555556vw;
+    border-radius: 1.6666666667vw;
+  }
+  .restore__form_input:focus + label, .restore__form_input:not(:placeholder-shown) + label {
+    top: 1.3194444444vw;
+  }
+  .restore__form_input_captcha {
+    padding: 0 0 0 2.3611111111vw;
+    width: 18.5416666667vw;
+    height: 6.1805555556vw;
+  }
+  .restore__form_input_pass {
+    padding: 0 0 0 2.3611111111vw;
+    width: 27.5vw;
+    height: 6.1805555556vw;
+  }
+  .restore__form_label {
+    height: 1.3194444444vw;
+    font-size: 1.1111111111vw;
+    left: 2.4305555556vw;
+  }
+  .restore__btn_start {
+    font-size: 1.6666666667vw;
+    padding: 2.2222222222vw 4.2361111111vw;
+    border-radius: 1.3888888889vw;
+  }
+  .restore__img-background {
+    max-width: 59.6527777778vw;
+    top: -12px;
+    right: -75px;
+  }
+}
+@media (max-width: 1366px) {
+  .restore__img-background {
+    top: 190px;
+    right: -70px;
+  }
+}
+@media (max-width: 1024px) {
+  .restore__img-background {
+    max-width: 89vw;
+    top: 420px;
+    right: -82px;
+  }
+}
+@media (max-width: 1024px) and (orientation: landscape) {
+  .restore__img-background {
+    max-width: 63vw;
+    top: 90px;
+    right: -55px;
+  }
+}
+@media (max-width: 768px) {
+  .restore__form_item_pass {
+    display: grid;
+    grid-template-columns: 0.1fr 0.2fr;
+    grid-column-gap: 2.3vw;
+  }
+  .restore__img-background {
+    max-width: 89vw;
+    top: 320px;
+    right: -63px;
+  }
+}
+@media (max-width: 414px) {
+  .restore {
+    margin: 21.9806763285vw 0 70.0483091787vw 0;
+  }
+  .restore__inner {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .restore__form_title {
+    margin: 0 0 15px 0;
+    padding: 0 0 7.4879227053vw 0;
+    width: 72.4637681159vw;
+    height: 7.0048309179vw;
+    font-size: 5.7971014493vw;
+    line-height: 0;
+  }
+  .restore__form_item_pass {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+  }
+  .restore__form_input {
+    font-size: 3.8647342995vw;
+    margin: 0 0 5.7971014493vw 0;
+    padding: 5.3140096618vw 0 0 4.8309178744vw;
+    width: 100%;
+    height: 19.0821256039vw;
+    border-radius: 5.7971014493vw;
+  }
+  .restore__form_input:focus + label, .restore__form_input:not(:placeholder-shown) + label {
+    top: 19px;
+  }
+  .restore__form_input_captcha {
+    height: 28.7439613527vw;
+  }
+  .restore__form_input_pass {
+    margin: 0 0 32px 0;
+    padding: 0 0 0 34px;
+    height: 19.0821256039vw;
+    position: absolute;
+    bottom: -12vw;
+  }
+  .restore__form_label {
+    height: 4.5893719807vw;
+    font-size: 2.8985507246vw;
+    left: 5.3140096618vw;
+  }
+  .restore__btn_start {
+    width: 100%;
+    position: absolute;
+    bottom: -75vw;
+    font-size: 4.347826087vw;
+    padding: 7.729468599vw 14.7342995169vw;
+    border-radius: 4.347826087vw;
+  }
+  .restore__img-background {
+    display: none;
   }
 }
 
