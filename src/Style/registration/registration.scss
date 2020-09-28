@@ -139,7 +139,7 @@
 
         display: none;
 
-        &:checked + .entrance__form_check_fake:before {
+        &:checked + .registration__form_check_fake:before {
 
           opacity: 1;
 
@@ -542,17 +542,17 @@
     }
   }
 
-@media (max-width: 736px) {
-  @media(orientation: landscape) {
-    &__img-background {
+  @media (max-width: 736px) {
+    @media(orientation: landscape) {
+      &__img-background {
 
-      max-width: 57vw;
-      top: 5px;
-      right: -35px;
+        max-width: 57vw;
+        top: 5px;
+        right: -35px;
 
+      }
     }
   }
-}
 
   @media (max-width: 414px) {
 
@@ -629,33 +629,33 @@
 
       }
 
-        &_check {
+      &_check {
 
-          margin: 2.7777777777777777vw 0 0 0;
+        margin: 2.7777777777777777vw 0 0 0;
 
-          &_fake {
+        &_fake {
 
-            margin: 0 3.864734299516908vw 0 0;
+          margin: 0 3.864734299516908vw 0 0;
 
-            width: 7.729468599033816vw;
-            height: 7.729468599033816vw;
-            border-radius: 2.898550724637681vw;
+          width: 7.729468599033816vw;
+          height: 7.729468599033816vw;
+          border-radius: 2.898550724637681vw;
 
-            &:before {
+          &:before {
 
-              font-size: 3.864734299516908vw;
-
-            }
-          }
-
-          &_text {
-
-            width: 70vw;
-            font-size: 2.898550724637681vw;
-            line-height: 4.3478260869565215vw;
+            font-size: 3.864734299516908vw;
 
           }
         }
+
+        &_text {
+
+          width: 70vw;
+          font-size: 2.898550724637681vw;
+          line-height: 4.3478260869565215vw;
+
+        }
+      }
 
       &_forbidden {
 
@@ -684,19 +684,19 @@
 
       &_start {
 
-          width: 100%;
-          position: absolute;
-          bottom: -22vw;
-          font-size: 4.3478260869565215vw;
+        width: 100%;
+        position: absolute;
+        bottom: -22vw;
+        font-size: 4.3478260869565215vw;
 
-          padding: 6vw 14.734299516908212vw;
-          border-radius: 4.3478260869565215vw;
+        padding: 6vw 14.734299516908212vw;
+        border-radius: 4.3478260869565215vw;
 
       }
 
       &_icon {
 
-display: none;
+        display: none;
 
       }
     }
@@ -705,6 +705,15 @@ display: none;
 
       display: none;
 
+    }
+  }
+  @media(max-width: 320px) {
+    &__form {
+      &_input {
+        &_pass {
+          bottom: 30vw;
+        }
+      }
     }
   }
 }
